@@ -4,6 +4,12 @@
 
 * [demo](https://ytyaru.github.io/HTML.ElectronicWork.Register.Generator.20181104070000/)
 
+## 参考
+
+* http://sim.okawa-denshi.jp/keiretu.htm
+* http://www.kanazawa-it.ac.jp/yumekobo/support/data/bge01.pdf
+* https://synapse.kyoto/tips/E_series/page001.html
+
 # ライセンス
 
 　このソフトウェアはCC0ライセンスである。

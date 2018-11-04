@@ -22,7 +22,7 @@
 	<label>3</label>
 	<label title="掛け算、乗算、乗法">×</label>
 	<label title="底">2</label>
-	<input id="RegisterSystemExponential" value="0" type="number" min="0" max="6" size="1" maxlength="1" required placeholder="指数" title="指数" autocomplete="on" list="RegisterSystemExponentialList"></input>
+	<input id="RegisterSystemExponential" value="3" type="number" min="0" max="6" size="1" maxlength="1" required placeholder="指数" title="指数" autocomplete="on" list="RegisterSystemExponentialList"></input>
 	<label title="イコール">＝</label>
 	<label>E</label>
 	<output id="RegisterSystemValue" title="E系列値">0</output>
@@ -45,15 +45,27 @@
 
 <form id="RegisterSystemValuesForm">
 <fieldset><legend>抵抗器の系列における抵抗値</legend>
-	<label id="RegisterSystemValuesRoot"></label>
+	<input id="RegisterSystemValuesRoot" value="0" type="number" min="0" max="3" required placeholder="E系列値" title="E系列値"></input>
 	<label>√</label>
 	<label title="底">10</label>
-	<input id="RegisterSystemExponential" value="0" type="number" min="0" max="9" size="1" maxlength="1" required placeholder="指数" title="指数" autocomplete="on" list="RegisterSystemExponentialList"></input>
+	<label title="掛け算、乗算、乗法">×</label>
+	<label title="底">10</label>
+	<input id="RegisterSystemValuesExponential" value="0" type="number" min="0" max="9" size="1" maxlength="1" required placeholder="指数" title="指数" autocomplete="on" list="RegisterSystemExponentialList"></input>
 	<label title="イコール">＝</label>
 	<output id="Ohm" title="抵抗値">0</output>
 	<label title="オーム(抵抗値)">Ω</label>
 </fieldset>
 </form>
+
+<p>　実際の抵抗器はこれを小数点以下1桁まで丸めた値を用いている。（丸め方式は謎。小数点以下2桁で四捨五入した値と一致するものもあればしないものもある）</p>
+<details>
+<summary>参考</summary>
+<ul>
+<li><a href="http://sim.okawa-denshi.jp/keiretu.htm">http://sim.okawa-denshi.jp/keiretu.htm</a></li>
+<li><a href="http://www.kanazawa-it.ac.jp/yumekobo/support/data/bge01.pdf">http://www.kanazawa-it.ac.jp/yumekobo/support/data/bge01.pdf</a></li>
+<li><a href="https://synapse.kyoto/tips/E_series/page001.html">https://synapse.kyoto/tips/E_series/page001.html</a></li>
+</ul>
+</details>
 
 </body>
 </html>
